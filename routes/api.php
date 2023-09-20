@@ -26,7 +26,7 @@ Route::group(['middleware' => 'auth:sanctum'], function () {
     Route::group(['prefix' => 'budget'], function() {
         Route::post('', [BudgetServiceController::class, 'create']);
         Route::post('update', [BudgetServiceController::class, 'update']);
-        Route::get('', [BudgetServiceController::class, 'getById']);
+        Route::get('/{idBudget}', [BudgetServiceController::class, 'getById']);
         Route::delete('', [BudgetServiceController::class, 'delete']);
     });
 
