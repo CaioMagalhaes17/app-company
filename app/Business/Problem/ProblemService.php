@@ -11,4 +11,8 @@ class ProblemService {
     public function getAvaliableProblems() {
         return $this->repository->getAvaliableProblems();
     }
+
+    public function getById(string $problemId){
+        return $this->repository->getById($problemId);
+    }
 }
