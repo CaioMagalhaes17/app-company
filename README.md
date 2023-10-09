@@ -1,4 +1,4 @@
-#  Documentação da API ao APP de orçamentos para concertos de celulares (cliente)
+#  Documentação da API ao APP de orçamentos para concertos de celulares (Empresa)
 
 >## Recursos autenticados 
 
